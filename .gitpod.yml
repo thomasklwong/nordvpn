@@ -1,0 +1,16 @@
+github:
+  prebuilds:
+    master: true
+    branches: true
+    pullRequests: true
+    pullRequestsFromForks: true
+    addComment: true
+    addBadge: false
+    addLabel: prebuilt-in-gitpod
+    addCheck: false
+image:
+  file: .gitpod.Dockerfile
+vscode:
+  extensions:
+    - timonwong.shellcheck
+    - mads-hartmann.bash-ide-vscode
